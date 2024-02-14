@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "norsebold";
+    src: url("../asset/fonts/norsebold-webfont.woff") format(".woff"),
+    url("../asset/fonts/norsebold-webfont.woff2") format(".woff2");
+}
+@font-face {
+    font-family:"norse" ;
+    src: url("../asset/fonts/norse-webfont.woff") format(".woff"),
+    url("../asset/fonts/norse-webfont.woff2") format(".woff2");
+}
+:root{
+    --black-color:#000;
+    --white-color:#fff;
+}
+*,body,html{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center; 
+}
+main>div{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: cornflowerblue;
+    width: 70%;
+}
+.left-logo_section{
+    width: 35%;
+    background-color: blue;
+    background-image: url("../asset/halie-west-25xggax4bSA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+   
+}
+.right_input_section{
+    width: 65%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.logo_background{
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 7.5rem;
+    color: var(--white-color);
+    font-family: "norsebold";
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+ 
+    
+}
+.logo_element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.logo_container{
+    width: calc(30px + 2.5rem);
+
+}
+.logo_container>img{
+    width: 100%;
+}
+.photo_acknowledgement ,.photo_acknowledgement a{
+    font-size: 0.6rem;
+    color: var(--white-color);
+    
+    
+}
+.photo_acknowledgement{
+    display: flex;
+    justify-content: center;
+}
