@@ -31,7 +31,7 @@ main>div{
     justify-content: center; 
     background-color: cornflowerblue;
     width: 70%;
-}
+} 
 .left-logo_section{
     width: 35%;
     background-color: blue;
@@ -90,4 +90,42 @@ main>div{
 .photo_acknowledgement{
     display: flex;
     justify-content: center;
+}
+
+
+
+
+/* RIGHT SECTION */
+.right_input_section>div:nth-child(1){
+    font-size: 1.2rem;
+    width:84%;
+    margin-top: 3.8rem;
+    padding-left: 2rem;
+    
+}
+.right_input_section > div:nth-child(1) > div:nth-child(2){
+    margin-top: 1.3rem;
+}
+.right_input_section>div:nth-child(2)>form>div:nth-child(1){
+    background-color: var(--white-color);
+    box-shadow: 0px 6px 10px rgb(0, 0, 0,0.3);
+    height: 12rem;
+    margin-top: 3.9rem;
+    padding-left: 2rem;
+}
+form>div:nth-child(2)>button{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+    border-radius: 0.4rem;
+    background-color: #596D48;
+    color:var(--white-color);
+}
+.right_input_section>div:nth-child(3){
+    font-size: 0.8rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.right_input_section>div:nth-child(3)>span{
+    color: #596D48 ;
 }
