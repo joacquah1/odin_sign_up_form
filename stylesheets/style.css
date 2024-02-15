@@ -49,7 +49,7 @@ main>div{
 .right_input_section{
     width: 65%;
     height: 100%;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 }
 .logo_background{
     background-color: rgb(0, 0, 0, 0.4);
@@ -109,9 +109,11 @@ main>div{
 .right_input_section>div:nth-child(2)>form>div:nth-child(1){
     background-color: var(--white-color);
     box-shadow: 0px 6px 10px rgb(0, 0, 0,0.3);
-    height: 12rem;
     margin-top: 3.9rem;
     padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 0.6rem;
+   
 }
 form>div:nth-child(2)>button{
     margin-left: 2rem;
@@ -128,4 +130,43 @@ form>div:nth-child(2)>button{
 }
 .right_input_section>div:nth-child(3)>span{
     color: #596D48 ;
+}
+form h5{
+    font-size: 1rem;
+}
+
+.inputs_section{
+    width: 80%;
+  
+}
+.inputs_section >div{
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.7rem;
+}
+
+.inputs_section >div label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+}
+.inputs_section >div input{
+    border: 1px solid #E5E7EB;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  
+}
+.inputs_section >div input[type="password"]{
+    outline: 1px solid red;
+}
+.inputs_section >div input[type="password"]~div{
+    color: red;
+    font-size: 0.5rem;
+    margin-top: 0.1rem;
+}
+.inputs_section >div input[type="text"]:focus{
+    outline: 1px solid blue;
+    box-shadow: 1px 2px 5px #000000a9;
 }
